@@ -1,0 +1,18 @@
+{   
+   "name": "GURPS-Modifier-Tables",
+   "title": "GURPS Modifier Tables",
+   "description": "Adds premade modifier tables for GURPS 4e Game Aid.",
+   "author": "Legendsmith",
+   "version": "1.0.0",
+   "minimumCoreVersion": "0.8.0",
+   "compatibleCoreVersion":"0.8.8",
+   "packs": [
+      {
+         "name":"tables",
+         "label": "GURPS Modifier Tables",
+         "path": "packs/gurps-modifier-tables.db",
+         "entity":"JournalEntry",
+         "module":"GURPS-Modifier-Tables"
+      }
+   ]
+ }
