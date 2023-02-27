@@ -1,20 +1,39 @@
-{   
-   "name": "GURPS-Modifier-Tables",
-   "title": "GURPS Modifier Tables",
-   "description": "Adds premade modifier tables for GURPS 4e Game Aid.",
-   "author": "Legendsmith",
-   "version": "1.1.0",
-   "minimumCoreVersion": "0.7.0",
-   "compatibleCoreVersion":"0.8.9",
-   "packs": [
+{
+  "id": "gurps-modifier-tables",
+  "title": "GURPS Modifier Tables",
+  "description": "Compendium of modifier tables for the GURPS 4e Game Aid",
+  "version": "1.2.0",
+  "manifestPlusVersion": "1.2.0",
+  "compatibility": {
+    "minimum": 10,
+    "verified": 10,
+    "maximum": 11
+  },
+  "authors": [
+    {
+      "name": "Legendsmith",
+      "url": "https://github.com/legendsmith",
+      "discord": "Legendsmith#1102"
+    }
+  ],
+  "relationships": {
+    "systems": [
       {
-         "name":"tables",
-         "label": "GURPS Modifier Tables",
-         "path": "packs/gurps-modifier-tables.db",
-         "entity":"JournalEntry",
-         "module":"GURPS-Modifier-Tables"
+        "id":"gurps"
       }
-   ],
-   "manifest":"https://raw.githubusercontent.com/Legendsmith/GURPS-Modifier-Tables/main/module.json",
-   "download":"https://github.com/Legendsmith/GURPS-Modifier-Tables/archive/refs/heads/main.zip"
- }
+    ]
+  },
+  "packs":[
+    {
+      "name":"Modifier-Tables",
+      "label":"GURPS Modifier Tables",
+      "path":"packs/gurps-modifier-tables.db",
+      "type":"JournalEntry",
+      "private":false,
+      "flags":{}
+    }
+  ],
+  "url":"https://github.com/legendsmith/gurps-modifier-tables",
+  "manifest": "https://raw.githubusercontent.com/Legendsmith/GURPS-Modifier-Tables/main/module.json",
+  "download": "https://github.com/Legendsmith/GURPS-Modifier-Tables/archive/refs/heads/main.zip"
+}
